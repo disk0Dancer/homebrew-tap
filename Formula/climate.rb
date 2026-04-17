@@ -14,6 +14,6 @@ class Climate < Formula
   end
 
   test do
-    assert_match "climate version #{version}", shell_output("#{bin}/climate --version")
+    assert_match "climate version v#{version}", shell_output("#{bin}/climate --version")
   end
 end
